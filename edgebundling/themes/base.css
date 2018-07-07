@@ -1,0 +1,144 @@
+html {
+	background-color: #FFFFFF;
+	color: #2984A4;
+	font-family: Georgia, "Lucida Bright", serif;
+}
+
+body, div, img, form {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+form * {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=checkbox]:focus,
+input[type=radio]:focus,
+input[type=file]:focus,
+select:focus,
+textarea:focus {
+	background-color: #FFFFFF;
+}
+label:focus {
+	color: #33070D;
+}
+
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+h4:first-letter,
+h5:first-letter,
+h6:first-letter,
+h7:first-letter {
+	color: #E05A00;
+	font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6, h7, p {
+	color: #505050;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link,
+a:visited {
+	color: #2064A4;
+}
+
+div.panel {
+	margin: 0 1.2em;
+	padding: 1em 0 2em;
+	background-color: #FFFFFF
+}
+
+div.text {
+	margin: 0 1.0em;
+	max-width: 728px;
+}
+
+div.text div.subsection {
+	padding-left: 0.4em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-color: #f0f0f0;
+}
+
+div.foother {
+	margin: 1em 0;
+	text-align: center;
+	font-size: small;
+}
+
+table {
+	
+	border-collapse: collapse;
+<!--	border-style: none; -->
+}
+
+table caption {
+	margin-bottom: 0.1em;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+table td {
+	margin: 0;
+	padding: 0.1em 0.5em;
+	border-style: none;
+	vertical-align: text-top;
+}
+
+table thead td {
+	padding-bottom: 0.15em;
+	border-bottom: 1px solid #F6F6FF;
+}
+
+.float-left {
+	float: left;
+	margin: 0.1em 0.2em 0.1em 0;
+}
+
+.float-right {
+	float: right;
+	margin: 0.1em 0 0.1em 0.2em;
+}
+
+@media handheld {
+	img {
+		display: none;
+	}
+}
+
+
+/* Sample PopBox CSS Classes */
+/* PopBox.js, Copyright (c) 2007, C6 Software, Inc. (http://www.c6software.com/)*/
+
+.PopBoxImageSmall
+{
+	border: none 0px #ffffff;
+	cursor: url("images/magplus.cur"), pointer;
+}
+.PopBoxImageLarge
+{
+	border: solid 1px #999999;
+	cursor: url("images/magminus.cur"), pointer;
+}
+.PopBoxImageShrink
+{
+	cursor: url("images/magminus.cur"), pointer;
+}
+.PopBoxImageLink
+{
+	cursor: pointer;
+}
+.PopBoxImageMove
+{
+	border: none 0px #ffffff;
+	cursor: pointer;
+}
+
