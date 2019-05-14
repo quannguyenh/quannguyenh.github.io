@@ -145,11 +145,14 @@ ul{
 	padding:4px 0 7px 0;
 	float:left;
 }
+
 #left p.text2 span{
 	font:bold 13px/18px  "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#9C4D00;
 	background-color:#F8EFD3;
 }
+
+
 #left p.rm{
 	display:block;
 	width:570px;
@@ -288,12 +291,13 @@ ul{
 #left ol li{
 	/*display:block;*/
 	width:585px;
-	/*font:normal 13px/18px  "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+	font:normal 12px/18px  "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#63562E;
 	/*background-color:#F8EFD3;*/
 	padding:2px 0 5px 0;
 	float:left;
 }
+
 
 /*#left ol li{*/
 	/*padding:10px;*/
